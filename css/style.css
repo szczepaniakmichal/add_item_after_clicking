@@ -2,3 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+body {
+  padding-left: 20px; }
+  body button {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #000; }
+  body ul > li {
+    margin: 10px 0; }
+    body ul > li.grow_font_size {
+      font-size: 24px;
+      color: orange; }
