@@ -1,8 +1,9 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
+let gulp = require('gulp');
+let sass = require('gulp-sass');
 
-gulp.task('sass', function () {
-   gulp.src('sass/style.scss')
-       .pipe(sass())
-       .pipe(gulp.dest('css/'))
+gulp.task('sass', done => {
+    gulp.src('sass/style.scss')
+        .pipe(sass())
+        .pipe(gulp.dest('css/'));
+    done();
 });
